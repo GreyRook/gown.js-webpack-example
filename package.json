@@ -1,0 +1,22 @@
+{
+  "name": "gown.js-webpack-example",
+  "version": "1.0.0",
+  "description": "A simple example project for using gown.js together with webpack.",
+  "author": "Grey Rook GmbH",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "start": "webpack-dev-server --open --config webpack.dev.js"
+  },
+  "dependencies": {
+    "gown": "^0.1.3",
+    "pixi.js": "^4.5.5"
+  },
+  "devDependencies": {
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "webpack": "^3.5.6",
+    "webpack-dev-server": "^2.7.1",
+    "webpack-merge": "^4.1.0"
+  }
+}
